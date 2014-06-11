@@ -1,9 +1,27 @@
-Newt Programming Language Design
+Newt Programming Language Design - Introduction
 ================
 
 Newt is an imperative programming language with a C-like syntax meant for
 teaching programming. Currently being at the design phase of development. So it 
 won't be out for a while.
+
+Table of contents
+-----------------
+0. Introduction
+  0. [General idea](https://github.com/mrozycki/newt-lang-design#general-idea)
+  0. [Features](https://github.com/mrozycki/newt-lang-design#features)
+  0. [Roadmap](https://github.com/mrozycki/newt-lang-design#roadmap)
+  0. [Questions](https://github.com/mrozycki/newt-lang-design#questions)
+0. Program structure
+0. Input/output
+0. Variables, arrays
+0. Mathematical operations
+0. Functions
+0. Compound types (structures)
+0. Graphics
+
+General idea
+------------
 
 Nowadays the popular programming languages are constantly being extended with
 features that are difficult to understand for beginners. This makes a steeper
