@@ -12,7 +12,7 @@ Table of contents
   0. [Features](https://github.com/mrozycki/newt-lang-design#features)
   0. [Roadmap](https://github.com/mrozycki/newt-lang-design#roadmap)
   0. [Questions](https://github.com/mrozycki/newt-lang-design#questions)
-0. Program structure
+0. [Program structure](https://github.com/mrozycki/newt-lang-design/tree/master/program_structure)
 0. Input/output
 0. Variables, arrays
 0. Mathematical operations
