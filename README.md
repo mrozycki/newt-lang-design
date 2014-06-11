@@ -15,8 +15,8 @@ Table of contents
 0. [Program structure](https://github.com/mrozycki/newt-lang-design/tree/master/program_structure)
 0. [Input/output](https://github.com/mrozycki/newt-lang-design/tree/master/io)
 0. [Variables, arrays](https://github.com/mrozycki/newt-lang-design/tree/master/variables)
-0. Mathematical operations
-0. Conditionals and loops
+0. [Operations on values](https://github.com/mrozycki/newt-lang-design/tree/master/math)
+0. [Conditionals and loops](https://github.com/mrozycki/newt-lang-design/tree/master/condnloops)
 0. Functions
 0. Compound types (structures)
 0. Graphics
@@ -96,20 +96,21 @@ of the language. Take all the feedback and adjust the design.
 This should take several weeks and end with freezing the design for the first
 version of Newt.
 
-### Implement the compiler
-I have literally no idea how long this will take.
+### Implement the interpreter
+At first an interpreter will be written in C++, as this is easier and faster
+to write than an actual compiler.
 
 ### Complete the language documentation and write tutorials
-This may be done in parallel to implementing the compiler, as at this point
+This may be done in parallel to implementing the interpreter, as at this point
 the design should be frozen.
 
 ### Write a simple IDE
-By 'simple' I mean text editor with syntax highlighting plus a compile button.
+By 'simple' I mean text editor with syntax highlighting plus a run button.
 
-### Further development of the IDE and compiler
-This would include optimising the compiler and the generated code, possibly
-rewriting it in Newt, adding features to the IDE (autoindentation, syntax
-autocomplete) and bugfixes in both.
+### Further development of the IDE and the interpreter
+This would include optimising the interpreter, possibly writing a compiler
+(either to native code via GNU Assembler or JVM bytecode) in Newt, adding 
+features to the IDE (autoindentation, syntax autocomplete) and bugfixes in both.
 
 ### Start working on the second version of the language
 Concurrently to further development of the first version. Possibly thinking
@@ -138,7 +139,7 @@ Introducing a difficult to understand mechanic to gain a performance boost
 
 However, if your idea fits the general philosophy of the language **and** gives
 a performance boost, please share! On the other hand, please also bear in mind
-that delivering a working compiler has a higher priority than performance of
+that delivering a working interpreter has a higher priority than performance of
 generated code, so your idea (even if it's good and I agree) may not be included
 in the first version of the language.
 
