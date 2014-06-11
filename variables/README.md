@@ -41,6 +41,7 @@ Other built-in compound types are explained in their corresponding sections.
 
 ### Why `Real`?
 Because there is no good way to call a floating point type. Let me explain:
+
 0. `Float` will cause students to use `float` in Java, C/C++ etc. when they
 make the transition.
 0. `Double`. Double what? Double precision. Compared to what? Good luck
