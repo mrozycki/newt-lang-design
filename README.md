@@ -14,8 +14,9 @@ Table of contents
   0. [Questions](https://github.com/mrozycki/newt-lang-design#questions)
 0. [Program structure](https://github.com/mrozycki/newt-lang-design/tree/master/program_structure)
 0. [Input/output](https://github.com/mrozycki/newt-lang-design/tree/master/io)
-0. Variables, arrays
+0. [Variables, arrays](https://github.com/mrozycki/newt-lang-design/tree/master/variables)
 0. Mathematical operations
+0. Conditionals and loops
 0. Functions
 0. Compound types (structures)
 0. Graphics

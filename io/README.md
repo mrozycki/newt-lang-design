@@ -151,11 +151,11 @@ This is basically what Java's `DataInputStream` is, but without the painful
 initialisation of the stream. So to read in an integer, all you need to do
 is write:
 
-    Integer n = console.readInteger();
+    Integer n := console.readInteger();
 
 There's also functions like `readReal()`, `readBoolean()`, `readCharacter()`,
-`readString()` and `readLine()`. For discussion on datatype names see the
-'Variables' section.
+`readString()` and `readLine()`. For discussion on datatype names, as well as
+the assignment operator, see the 'Variables' section.
 
 Most of them are self explanatory, maybe except the difference between
 `readString()` and `readLine()`. The latter reads in an entire line (so from
@@ -170,7 +170,7 @@ Writing to files and reading from them works almost the same as doing it on
 the console. The only difference is that you need to open the file first and
 then call the functions on your file handler instead of on `console`.
 
-    File in = system.open("hello.txt", "w");
+    File in := system.open("hello.txt", "w");
     in.writeln("Hello, world!");
     in.close();
 
