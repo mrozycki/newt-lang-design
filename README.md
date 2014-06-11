@@ -19,6 +19,7 @@ Table of contents
 0. Functions
 0. Compound types (structures)
 0. Graphics
+0. [Example code]((https://github.com/mrozycki/newt-lang-design/examples/queue.newt)
 
 General idea
 ------------
