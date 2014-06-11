@@ -1,0 +1,4 @@
+program Square {
+  Integer n := console.readInteger();
+  console.write(n*n);
+}

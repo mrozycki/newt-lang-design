@@ -1,0 +1,43 @@
+structure Queue {
+  Integer elements[100];
+  Integer top;
+
+  Queue() {
+    this.top := 0;
+  }
+
+  method push (Integer v) {
+    this.elements[this.top] := v;
+    this.top := this.top + 1;
+  }
+
+  method top () -> Integer {
+    return this.elements[this.top];
+  }
+
+  method pop () {
+    this.top := this.top - 1;
+  }
+
+  method empty () -> Boolean {
+    return this.top == 0;
+  }
+}
+
+program Brackets {
+  String input := console.readLine();
+  Queue brackets;
+  Boolean wellBracketed := true;
+
+  for (Integer i := 0; i < input.length(); i := i + 1) {
+    if (input[i] == '(') {
+      brackets.push(i);
+    } else if (input[i] == ')') {
+      if (brackets.empty()) { wellBracketed := false; }
+      console.write(brackets.top(), " ", i);
+      brackets.pop();
+    }
+  }
+
+  console.print(brackets.empty() && wellBracketed);
+}
