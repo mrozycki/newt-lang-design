@@ -19,7 +19,7 @@ Table of contents
 0. Functions
 0. Compound types (structures)
 0. Graphics
-0. [Example code]((https://github.com/mrozycki/newt-lang-design/examples/queue.newt)
+0. [Example code](https://github.com/mrozycki/newt-lang-design/tree/master/examples)
 
 General idea
 ------------
@@ -117,10 +117,10 @@ of some more sophisticated development cycle for the project.
 Questions
 ---------
 
-### Why Newt?
+### Why is it called Newt?
 Original idea was to call the language Newton/m^2 (you know, because Pascal),
 but I decided this name is too long. So I shortened it to Newt, because it
-also seems like a like name.
+also seems like a nice name.
 
 ### Why not do X instead of Y?
 This repository is supposed to answer all the questions of this type. If your
