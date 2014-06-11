@@ -47,7 +47,8 @@ make the transition.
 0. `Double`. Double what? Double precision. Compared to what? Good luck
 explaining that.
 0. `Number`. Isn't integer a number as well? JavaScript solves it by getting
-rid of integer data type and leaving `Number` to do everything.
+rid of integer data type and leaving `Number` to do everything, which is not
+a solution.
 0. `Rational`. Brings a fractional representation to mind. Also `Rational pi`
 looks ridiculous.
 0. `Decimal`. It was a close one. It does bring fixed-point to mind, but that's
