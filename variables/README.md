@@ -41,12 +41,14 @@ Other built-in compound types are explained in their corresponding sections.
 
 ### Why `Real`?
 Because there is no good way to call a floating point type. Let me explain:
+
 0. `Float` will cause students to use `float` in Java, C/C++ etc. when they
 make the transition.
 0. `Double`. Double what? Double precision. Compared to what? Good luck
 explaining that.
 0. `Number`. Isn't integer a number as well? JavaScript solves it by getting
-rid of integer data type and leaving `Number` to do everything.
+rid of integer data type and leaving `Number` to do everything, which is not
+a solution.
 0. `Rational`. Brings a fractional representation to mind. Also `Rational pi`
 looks ridiculous.
 0. `Decimal`. It was a close one. It does bring fixed-point to mind, but that's
@@ -81,13 +83,13 @@ option right now seems to be the Pascal `:=` operator. Why change the `=`?
 Because it may be surprisingly confusing to new programmers, as they may
 intuitively see it as a symmetrical operator. I've seen that a few times and it
 is usually very difficult to explain that it is in fact not the case that `5=a`
-is not the same as `a=5`, as the belief that the familiar `=` operator is
+is the same as `a=5`, as the belief that the familiar `=` operator is
 symmetrical is, if present, really strong.
 
 Another option is a `<-` operator for assignments. Obvious advantage is that
 it clearly shows the direction of assignment (which is not the case with `:=`,
 which is not that intuitive and only indicates lack of symmetry). Its downside
-is that it is not remotely similar in appereance to the widely used `=`
+is that it is not even remotely similar in appereance to the widely used `=`
 operator, which may make the transition more problematic.
 
 Thus, for now, an assignment looks like this:
