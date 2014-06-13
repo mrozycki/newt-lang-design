@@ -1,12 +1,20 @@
 Newt Programming Language Design - Introduction
-================
+===============================================
 
 Newt is an imperative programming language with a C-like syntax meant for
 teaching programming. Currently being at the design phase of development. So it 
 won't be out for a while.
 
+Please bear in mind that this is not a formal documentation of the language.
+This is supposed to be an informal design description, together with
+discussion of some of the decisions made. Some of the details may be omitted
+here if they are not significant enough to be rationalised, but will be
+present in the formal documentation that is to follow.
+
+
 Table of contents
 -----------------
+
 0. Introduction
   0. [General idea](https://github.com/mrozycki/newt-lang-design#general-idea)
   0. [Features](https://github.com/mrozycki/newt-lang-design#features)
@@ -17,10 +25,11 @@ Table of contents
 0. [Variables, arrays](https://github.com/mrozycki/newt-lang-design/tree/master/variables)
 0. [Operations on values](https://github.com/mrozycki/newt-lang-design/tree/master/math)
 0. [Conditionals and loops](https://github.com/mrozycki/newt-lang-design/tree/master/condnloops)
-0. Functions
+0. [Functions](https://github.com/mrozycki/newt-lang-design/tree/master/functions)
 0. Compound types (structures)
 0. Graphics
 0. [Example code](https://github.com/mrozycki/newt-lang-design/tree/master/examples)
+
 
 General idea
 ------------
@@ -41,6 +50,7 @@ time, the last widely known language designed with learning in mind was Pascal,
 now obsolete. There is also Scratch, which, however good, was designed with
 younger user base in mind and may not as easily gain attention from teenagers
 or university students.
+
 
 Features
 --------
@@ -79,6 +89,7 @@ You can quickly start coding fun stuff, without any additional complicated
 installation and configuration. So that you or your students don't get bored
 implementing Euclid's algorithm for the tenth time.
 
+
 Roadmap
 -------
 
@@ -115,6 +126,7 @@ features to the IDE (autoindentation, syntax autocomplete) and bugfixes in both.
 ### Start working on the second version of the language
 Concurrently to further development of the first version. Possibly thinking
 of some more sophisticated development cycle for the project.
+
 
 Questions
 ---------
