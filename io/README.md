@@ -178,3 +178,9 @@ So you first open a file (whether it should be `system.open` is still being
 considered). You specify the name and access type (read, write, append, binary
 or a combination of those) and you get a file handler, which can be used just
 like the `console`. At the end, of course, you need to close the file.
+
+Still to be decided
+-------------------
+
+Is `console` an inbuilt, constant structure instance with the methods included,
+or is it just an integral part of the function names?

@@ -113,9 +113,9 @@ Constants
 Constants will be created by using a `Constant` modifier at initialisation.
 Like so:
 
-    Constant Real pi = 3.14159;
+    Constant Real pi := 3.14159;
 
-The keyword `constant` may be changed to `const` if the type names are changed
+The keyword `Constant` may be changed to `const` if the type names are changed
 to `int` etc.
 
 Pointers and references
@@ -153,3 +153,49 @@ Allowing for initialisations:
 And even constant arrays:
 
     Constant Integer numbers[] = {4, 8, 15, 16, 23, 42};
+
+Still to be decided
+-------------------
+
+### Variables
+
+What is the default value for a new variable. For example, what does this print:
+
+    Integer n;
+    console.writeln(n);
+
+Are binary, octal and hexadecimal integer literals part of the language?
+
+Is `Character` type an integer type as well? In other words, should implicit
+conversions between `Integer` and `Character` be included in the language?
+
+### Strings
+
+Is `String` type equivalent to a `Character` array? For example, are those 
+valid:
+
+    Character name[] := "Newt";
+    
+    console.writeln({'N', 'e', 'w', 't'}); 
+
+Or in other words, is this true:
+
+    {'N', 'e', 'w', 't'} == "Newt"
+
+### Arrays
+
+Is reassignment to the entire array allowed? For example, is this valid:
+
+    Integer nums[] := {1, 2, 3};
+    nums := {3, 4, 5};
+
+How is array size mismatch handled? For example, is this valid:
+
+    Integer nums[10] := {1, 2, 3};
+
+And if so, what are the resulting values in the array.
+
+Consequently, how is situation like this handled:
+
+    Integer nums[] := {1, 2, 3, 4, 5};
+    nums := {7, 8, 9};

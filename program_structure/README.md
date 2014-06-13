@@ -100,3 +100,7 @@ same piece of code. No `import`s of `include`s, the student should not worry
 about it at this point. No magic words that have no meaning. One may say that
 `console` could be dropped as well (as requires understanding what the console
 is). This is discussed in the IO section of the design.
+
+Additionally, stand-alone anonymous blocks of code are not allowed. Statements
+like conditionals and loops require a block, single instructions are not
+allowed. Further details can be found in the 'Conditionals and loops' section.
